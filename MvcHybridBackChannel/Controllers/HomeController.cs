@@ -73,12 +73,12 @@ namespace MvcHybrid.Controllers
             {   
                 AppZip.CopyTo(stream);
             }
-
-            ZipFile.ExtractToDirectory(filePath, path);
-
-            return RedirectToAction("AppNew");
+            
+            ZipFile.ExtractToDirectory(filePath, path,true);
+            
+            return RedirectToAction("Index");
         }
-
+        
 
         [Authorize]
         public IActionResult Secure()

@@ -105,10 +105,14 @@ namespace MvcHybrid
 
             //app.UseDefaultFiles("/_");
 
+            var approot = Path.Combine(Directory.GetCurrentDirectory(), "wwwapp");
+            if (!Directory.Exists(approot))
+                Directory.CreateDirectory(approot);
+            
             app.UseStaticFiles(new StaticFileOptions
             {   
                 FileProvider = new PhysicalFileProvider(
-                    Path.Combine(Directory.GetCurrentDirectory(), "wwwapp")),
+                    approot),
                 RequestPath = ""
             });
            
