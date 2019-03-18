@@ -9,25 +9,44 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
 using IdentityModel.Client;
 using System.Net.Http;
+using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
+using Microsoft.AspNetCore.Rewrite;
 
 namespace MvcHybrid
 {
     public class Startup
     {
-        public Startup()
+        public IConfiguration Configuration { get; }
+        public IHostingEnvironment HostingEnvironment { get; }
+
+        public Startup(IConfiguration configuration, IHostingEnvironment env)
         {
+            Configuration = configuration;
+            HostingEnvironment = env;
+
             JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
         }
 
         public void ConfigureServices(IServiceCollection services)
         {
+            string identityServerBaseUrl =
+                        Configuration.GetSection("AuthorityConfiguration:IdentityServerBaseUrl").Value;
+            string clientId =
+                Configuration.GetSection("AuthorityConfiguration:ClientId").Value;
+            string clientSecret =
+                Configuration.GetSection("AuthorityConfiguration:ClientSecret").Value;
+
+
             services.AddMvc();
             services.AddHttpClient();
 
             services.AddSingleton<IDiscoveryCache>(r =>
             {
                 var factory = r.GetRequiredService<IHttpClientFactory>();
-                return new DiscoveryCache(Constants.Authority, () => factory.CreateClient());
+                return new DiscoveryCache(identityServerBaseUrl, () => factory.CreateClient());
             });
 
             services.AddTransient<CookieEventHandler>();
@@ -47,11 +66,14 @@ namespace MvcHybrid
                 })
                 .AddOpenIdConnect("oidc", options =>
                 {
-                    options.Authority = "http://114.116.96.150:5000";
+
+
+                    options.Authority = identityServerBaseUrl;
                     options.RequireHttpsMetadata = false;
 
-                    options.ClientSecret = "secret";
-                    options.ClientId = "RefineWeb";
+                    options.ClientId = clientId;
+                    options.ClientSecret = clientSecret;
+
 
                     options.ResponseType = "code id_token";
 
@@ -73,14 +95,36 @@ namespace MvcHybrid
                         RoleClaimType = JwtClaimTypes.Role,
                     };
                 });
+            
         }
 
         public void Configure(IApplicationBuilder app)
         {
             app.UseDeveloperExceptionPage();
             app.UseStaticFiles();
+
+            //app.UseDefaultFiles("/_");
+
+            app.UseStaticFiles(new StaticFileOptions
+            {   
+                FileProvider = new PhysicalFileProvider(
+                    Path.Combine(Directory.GetCurrentDirectory(), "wwwapp")),
+                RequestPath = ""
+            });
+           
             app.UseAuthentication();
             app.UseMvcWithDefaultRoute();
+            /*
+            var rewriteOption = new RewriteOptions()
+               .AddRewrite(
+                @"^_(.*)/(.*)", // RegEx to match URL
+                "_$1/$2", // URL to rewrite
+                false // Stop processing any aditional rules
+            );
+
+            app.UseRewriter(rewriteOption);
+            */
+
         }
     }
 }

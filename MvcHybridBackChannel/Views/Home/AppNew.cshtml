@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "上传应用";
+}
+<form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="AppUpload">
+    
+    <div class="form-group">
+        <div class="col-md-10">
+            <p>应用编码:</p>
+            <input type="text" name="AppCode" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10">
+            <p>应用打包(zip):</p>
+            <input type="file" name="AppZip" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10">
+            <input type="submit" value="提交" />
+        </div>
+    </div>
+
+</form>

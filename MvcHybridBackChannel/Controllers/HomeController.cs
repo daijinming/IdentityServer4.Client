@@ -4,11 +4,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using System.Net.Http;
+using System.Collections.Generic;
 using Clients;
 using Newtonsoft.Json.Linq;
 using IdentityModel.Client;
 using System.Globalization;
 using Microsoft.AspNetCore.Http;
+using System.IO;
+using System.IO.Compression;
 
 namespace MvcHybrid.Controllers
 {
@@ -25,8 +28,57 @@ namespace MvcHybrid.Controllers
 
         public IActionResult Index()
         {
+            Dictionary<string, string> dic = new Dictionary<string, string>();
+
+            var apps = System.IO.Directory.GetDirectories(
+                System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory(), "wwwapp"), "_*"
+                );
+
+            foreach (var app in apps)
+            {
+                System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(app);
+
+                var home_default = di.GetFiles("default.htm*");
+                var home_index = di.GetFiles("index.htm*");
+
+                if (home_default.Length > 0)
+                    dic.Add(di.Name, di.Name + "/" + home_default[0].Name);
+                else if (home_index.Length > 0)
+                    dic.Add(di.Name, di.Name + "/" + home_index[0].Name);
+                else
+                    continue;
+            }
+
+            return View(dic);
+        }
+
+
+        /// <summary>
+        /// 添加应用
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult AppNew()
+        {
             return View();
         }
+
+        [HttpPost]
+        public  IActionResult AppUpload(string AppCode, IFormFile AppZip)
+        {
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwapp", "_" + AppCode);
+
+            var filePath = Path.GetTempFileName();
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {   
+                AppZip.CopyTo(stream);
+            }
+
+            ZipFile.ExtractToDirectory(filePath, path);
+
+            return RedirectToAction("AppNew");
+        }
+
 
         [Authorize]
         public IActionResult Secure()
@@ -53,7 +105,7 @@ namespace MvcHybrid.Controllers
             var disco = await _discoveryCache.GetAsync();
             if (disco.IsError) throw new Exception(disco.Error);
 
-            var rt = await HttpContext.GetTokenAsync("refresh_token");
+            var rt = await HttpContext.GetTokenAsync("http","refresh_token");
             var tokenClient = _httpClientFactory.CreateClient();
 
             var tokenResult = await tokenClient.RequestRefreshTokenAsync(new RefreshTokenRequest

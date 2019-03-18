@@ -1,12 +1,25 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model Dictionary<string, string>
+@{
+    ViewData["Title"] = "首页";
 }
 
-@if(User.Identity.IsAuthenticated)
+@*@if (User.Identity.IsAuthenticated)
 {
-    <h1>Logged in as: @User.Identity.Name</h1>
+    <h1>登录人: @User.Identity.Name</h1>
 }
 else
 {
-    <h1>Not Logged In</h1>
+    <h1>尚未登录</h1>
+}*@
+
+<br/><br /><br />
+
+<h3>应用列表</h3>
+<hr />
+
+@foreach (var item in Model)
+{
+    <label> > </label><a href="@item.Value">@item.Key</a>
+
+    <br />
 }
