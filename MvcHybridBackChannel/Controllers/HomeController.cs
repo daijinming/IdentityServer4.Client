@@ -79,6 +79,9 @@ namespace MvcHybrid.Controllers
             return RedirectToAction("Index");
         }
         
+        
+        
+        
 
         [Authorize]
         public IActionResult Secure()
@@ -137,7 +140,7 @@ namespace MvcHybrid.Controllers
             ViewData["Error"] = tokenResult.Error;
             return View("Error");
         }
-
+        
         public IActionResult Logout()
         {
             return new SignOutResult(new[] { "Cookies", "oidc" });
@@ -147,5 +150,14 @@ namespace MvcHybrid.Controllers
         {
             return View();
         }
+
+
+        #region 新增加的框架接口
+            
+        
+        
+            
+        #endregion
+        
     }
 }
