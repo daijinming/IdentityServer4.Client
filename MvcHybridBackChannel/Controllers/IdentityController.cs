@@ -7,13 +7,20 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MvcHybrid.Controllers
 {
+    
+    [ApiController]
     public class IdentityController : Controller
     {
         
         // GET
+        /// <summary>
+        /// 读取当前登录人的个人信息
+        /// </summary>
+        /// <returns></returns>
         [Authorize]
+        [HttpGet("Identity")]
         public IActionResult Index()
-        {
+        {   
             object sub = 0;
             object preferred_username = "";
             object name = "";
@@ -25,7 +32,7 @@ namespace MvcHybrid.Controllers
             foreach (var claim in User.Claims)
             {
                 if (claim.Type.Equals("sub"))
-                {
+                {    
                     sub = claim.Value;
                 }
                 else if (claim.Type.Equals("preferred_username"))
@@ -76,7 +83,12 @@ namespace MvcHybrid.Controllers
         
         
         // GET
+        /// <summary>
+        /// 获得访问票据
+        /// </summary>
+        /// <returns></returns>
         [Authorize]
+        [HttpGet("Identity/Access_Token")]
         public async Task<IActionResult> Access_Token()
         {
             string result = string.Empty;
@@ -106,7 +118,7 @@ namespace MvcHybrid.Controllers
                 expires = GMT2Local(expires)
             };
             
-            
+                
             return this.Json(obj);
         }
         
@@ -115,13 +127,9 @@ namespace MvcHybrid.Controllers
         /// </summary>  
         /// <param name="gmt">字符串形式的GMT时间</param>  
         /// <returns></returns>  
-        public static DateTime GMT2Local(string gmt)
-        {
-            
+        private static DateTime GMT2Local(string gmt)
+        {                
             //列举所有支持的时区列表
-           
-            
-                
             if (gmt.ToLower().Contains("gmt"))
             {    
                 var dt = DateTime.Parse(gmt);
@@ -133,11 +141,8 @@ namespace MvcHybrid.Controllers
             {    
                 return DateTime.Parse(gmt);
             }
-            
-           
         }
-        
-        
+                
         
     }
 }

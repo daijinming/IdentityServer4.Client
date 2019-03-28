@@ -41,6 +41,8 @@ namespace MvcHybrid
 
 
             services.AddMvc();
+            services.AddSwaggerDocument(); 
+            
             services.AddHttpClient();
 
             services.AddSingleton<IDiscoveryCache>(r =>
@@ -115,20 +117,14 @@ namespace MvcHybrid
                     approot),
                 RequestPath = ""
             });
-           
+            
             app.UseAuthentication();
+            
+            app.UseSwagger();  
+            app.UseSwaggerUi3();
+            
             app.UseMvcWithDefaultRoute();
-            /*
-            var rewriteOption = new RewriteOptions()
-               .AddRewrite(
-                @"^_(.*)/(.*)", // RegEx to match URL
-                "_$1/$2", // URL to rewrite
-                false // Stop processing any aditional rules
-            );
-
-            app.UseRewriter(rewriteOption);
-            */
-
+            
         }
     }
 }

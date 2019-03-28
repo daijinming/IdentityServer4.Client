@@ -11,25 +11,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MvcHybridBackChannel/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
+            <state relative-caret-position="332">
+              <caret line="114" column="16" lean-forward="true" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
               <folding>
-                <marker date="1552897354174" expanded="false" signature="6:528" ph="..." />
-                <marker date="1552897354174" expanded="true" signature="549:4559" ph="{...}" />
-                <marker date="1552897354174" expanded="true" signature="576:4557" ph="{...}" />
-                <marker date="1552897354174" expanded="true" signature="777:951" ph="{...}" />
-                <marker date="1552897354174" expanded="true" signature="1019:3533" ph="{...}" />
-                <marker date="1552897354174" expanded="true" signature="1538:1736" ph="{...}" />
-                <marker date="1552897354174" expanded="true" signature="1906:2082" ph="{...}" />
-                <marker date="1552897354174" expanded="true" signature="2121:2355" ph="{...}" />
-                <marker date="1552897354174" expanded="true" signature="2409:3508" ph="{...}" />
-                <marker date="1552897354174" expanded="true" signature="3346:3489" ph="{...}" />
-                <marker date="1552897354174" expanded="true" signature="3589:4551" ph="{...}" />
-                <marker date="1552897354174" expanded="true" signature="3979:4117" ph="{...}" />
-                <marker date="1552897354174" expanded="true" signature="4223:4540" ph="/* var rewriteOption = new RewriteOptions() ... */" />
+                <marker date="1553736655991" expanded="false" signature="6:528" ph="..." />
+                <marker date="1553736655991" expanded="true" signature="549:4390" ph="{...}" />
+                <marker date="1553736655991" expanded="true" signature="576:4388" ph="{...}" />
+                <marker date="1553736655991" expanded="true" signature="777:951" ph="{...}" />
+                <marker date="1553736655991" expanded="true" signature="1019:3590" ph="{...}" />
+                <marker date="1553736655991" expanded="true" signature="1595:1793" ph="{...}" />
+                <marker date="1553736655991" expanded="true" signature="1963:2139" ph="{...}" />
+                <marker date="1553736655991" expanded="true" signature="2178:2412" ph="{...}" />
+                <marker date="1553736655991" expanded="true" signature="2466:3565" ph="{...}" />
+                <marker date="1553736655991" expanded="true" signature="3403:3546" ph="{...}" />
+                <marker date="1553736655991" expanded="true" signature="3646:4382" ph="{...}" />
+                <marker date="1553736655991" expanded="true" signature="4036:4174" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -38,8 +37,8 @@
       <file leaf-file-name="HomeController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MvcHybridBackChannel/Controllers/HomeController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="85" column="19" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="19" />
+            <state relative-caret-position="415">
+              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
               <folding>
                 <marker date="1553495548836" expanded="false" signature="6:395" ph="..." />
                 <marker date="1553495548836" expanded="true" signature="428:4972" ph="{...}" />
@@ -58,41 +57,43 @@
                 <marker date="1553495548836" expanded="true" signature="3709:4550" ph="{...}" />
                 <marker date="1553495548836" expanded="true" signature="4693:4780" ph="{...}" />
                 <marker date="1553495548836" expanded="true" signature="4818:4865" ph="{...}" />
-                <marker date="1553495548836" expanded="true" signature="4876:4955" ph="新增加的框架接口" />
+                <marker date="1553495548836" expanded="false" signature="4876:4955" ph="新增加的框架接口" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IdentityController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IdentityController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MvcHybridBackChannel/Controllers/IdentityController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="127" column="68" lean-forward="true" selection-start-line="127" selection-start-column="68" selection-end-line="127" selection-end-column="68" />
+            <state relative-caret-position="-1620">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
-                <marker date="1553502348795" expanded="false" signature="6:190" ph="..." />
-                <marker date="1553502348795" expanded="true" signature="223:3971" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="274:3969" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="361:2221" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="695:1406" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="755:830" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="896:986" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="1038:1114" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="1167:1244" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="1306:1392" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="1553:1660" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="1711:2150" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="1816:2069" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="2330:3247" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="2555:2992" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="2629:2706" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="2761:2859" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="2896:2978" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="3032:3175" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="3265:3417" ph="/// GMT时间转成本地时间   ... " />
-                <marker date="1553502348795" expanded="true" signature="3470:3936" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="3608:3808" ph="{...}" />
-                <marker date="1553502348795" expanded="true" signature="3825:3901" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="6:190" ph="..." />
+                <marker date="1553737785438" expanded="true" signature="223:4260" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="299:4258" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="338:431" ph="/// 读取当前登录人的个人信息 ... " />
+                <marker date="1553737785438" expanded="true" signature="518:2385" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="855:1570" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="915:994" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="1060:1150" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="1202:1278" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="1331:1408" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="1470:1556" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="1717:1824" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="1875:2314" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="1980:2233" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="2427:2514" ph="/// 获得访问票据 ... " />
+                <marker date="1553737785438" expanded="true" signature="2633:3554" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="2858:3295" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="2932:3009" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="3064:3162" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="3199:3281" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="3335:3478" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="3572:3724" ph="/// GMT时间转成本地时间   ... " />
+                <marker date="1553737785438" expanded="true" signature="3778:4226" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="3877:4123" ph="{...}" />
+                <marker date="1553737785438" expanded="true" signature="4140:4216" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -172,6 +173,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MvcHybridBackChannel/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MvcHybridBackChannel/Controllers/IdentityController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/35D1D668-9205-4C08-8AC0-8401C2EDB00B/68/6316b712/Controller.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/MvcHybridBackChannel/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MvcHybridBackChannel/Views/Home/Secure.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MvcHybridBackChannel/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
@@ -182,11 +184,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MvcHybridBackChannel/Startup.cs" />
         <option value="$PROJECT_DIR$/MvcHybridBackChannel/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/MvcHybridBackChannel/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/MvcHybridBackChannel/appsettings.json" />
         <option value="$PROJECT_DIR$/MvcHybridBackChannel/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/MvcHybridBackChannel/Startup.cs" />
         <option value="$PROJECT_DIR$/MvcHybridBackChannel/Controllers/IdentityController.cs" />
       </list>
     </option>
@@ -202,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -210,12 +211,24 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="MvcHybridBackChannel (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="MvcHybridBackChannel (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="MvcHybridBackChannel" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="MvcHybridBackChannel (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="MvcHybridBackChannel" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,7 +275,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16454294" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16620499" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32963988" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -289,19 +302,18 @@
         <state relative-caret-position="1425">
           <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
           <folding>
-            <marker date="1552897354174" expanded="false" signature="6:528" ph="..." />
-            <marker date="1552897354174" expanded="true" signature="549:4559" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="576:4557" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="777:951" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1019:3533" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1538:1736" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1906:2082" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="2121:2355" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="2409:3508" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3346:3489" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3589:4551" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3979:4117" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="4223:4540" ph="/* var rewriteOption = new RewriteOptions() ... */" />
+            <marker date="1553736655991" expanded="false" signature="6:528" ph="..." />
+            <marker date="1553736655991" expanded="true" signature="549:4390" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="576:4388" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="777:951" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1019:3590" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1595:1793" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1963:2139" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="2178:2412" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="2466:3565" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="3403:3546" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="3646:4382" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="4036:4174" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -328,7 +340,150 @@
             <marker date="1553495548836" expanded="true" signature="3709:4550" ph="{...}" />
             <marker date="1553495548836" expanded="true" signature="4693:4780" ph="{...}" />
             <marker date="1553495548836" expanded="true" signature="4818:4865" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="4876:4955" ph="新增加的框架接口" />
+            <marker date="1553495548836" expanded="false" signature="4876:4955" ph="新增加的框架接口" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MvcHybridBackChannel/Views/Home/Secure.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" selection-start-line="21" selection-start-column="3" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <marker date="1552896064554" expanded="true" signature="61:227" ph="&lt;div.../&gt;" />
+            <marker date="1552896064554" expanded="true" signature="230:351" ph="&lt;dl.../&gt;" />
+            <marker date="1552896064554" expanded="true" signature="239:345" ph="@..." />
+            <marker date="1552896064554" expanded="true" signature="274:345" ph="{...}" />
+            <marker date="1552896064554" expanded="true" signature="383:526" ph="@..." />
+            <marker date="1552896064554" expanded="true" signature="458:526" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MvcHybridBackChannel/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <marker date="1552981676371" expanded="true" signature="34:68" ph="@..." />
+            <marker date="1552981676371" expanded="true" signature="70:174" ph="@..." />
+            <marker date="1552981676371" expanded="true" signature="105:147" ph="{...}" />
+            <marker date="1552981676371" expanded="true" signature="152:174" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MvcHybridBackChannel/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+          <folding>
+            <marker date="1552981720849" expanded="true" signature="16:2986" ph="&lt;html.../&gt;" />
+            <marker date="1552981720849" expanded="true" signature="23:843" ph="&lt;head.../&gt;" />
+            <marker date="1552981720849" expanded="true" signature="188:376" ph="&lt;environment.../&gt;" />
+            <marker date="1552981720849" expanded="true" signature="381:835" ph="&lt;environment.../&gt;" />
+            <marker date="1552981720849" expanded="true" signature="844:2978" ph="&lt;body.../&gt;" />
+            <marker date="1552981720849" expanded="true" signature="855:1863" ph="&lt;div.../&gt;" />
+            <marker date="1552981720849" expanded="true" signature="916:1852" ph="&lt;div.../&gt;" />
+            <marker date="1552981720849" expanded="true" signature="952:1463" ph="&lt;div.../&gt;" />
+            <marker date="1552981720849" expanded="true" signature="996:1340" ph="&lt;button.../&gt;" />
+            <marker date="1552981720849" expanded="true" signature="1476:1837" ph="&lt;div.../&gt;" />
+            <marker date="1552981720849" expanded="true" signature="1531:1818" ph="&lt;ul.../&gt;" />
+            <marker date="1552981720849" expanded="true" signature="1868:2030" ph="&lt;div.../&gt;" />
+            <marker date="1552981720849" expanded="true" signature="1950:2019" ph="&lt;footer.../&gt;" />
+            <marker date="1552981720849" expanded="true" signature="2036:2288" ph="&lt;environment.../&gt;" />
+            <marker date="1552981720849" expanded="true" signature="2293:2922" ph="&lt;environment.../&gt;" />
+            <marker date="1552981720849" expanded="true" signature="2342:2550" ph="&lt;script.../&gt;" />
+            <marker date="1552981720849" expanded="true" signature="2559:2828" ph="&lt;script.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MvcHybridBackChannel/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MvcHybridBackChannel/Controllers/IdentityController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="127" column="68" lean-forward="true" selection-start-line="127" selection-start-column="68" selection-end-line="127" selection-end-column="68" />
+          <folding>
+            <marker date="1553737785438" expanded="true" signature="6:190" ph="..." />
+            <marker date="1553737785438" expanded="true" signature="223:4260" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="299:4258" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="338:431" ph="/// 读取当前登录人的个人信息 ... " />
+            <marker date="1553737785438" expanded="true" signature="518:2385" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="855:1570" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="915:994" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1060:1150" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1202:1278" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1331:1408" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1470:1556" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1717:1824" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1875:2314" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1980:2233" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="2427:2514" ph="/// 获得访问票据 ... " />
+            <marker date="1553737785438" expanded="true" signature="2633:3554" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="2858:3295" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="2932:3009" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3064:3162" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3199:3281" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3335:3478" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3572:3724" ph="/// GMT时间转成本地时间   ... " />
+            <marker date="1553737785438" expanded="true" signature="3778:4226" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3877:4123" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="4140:4216" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MvcHybridBackChannel/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
+          <folding>
+            <marker date="1553736655991" expanded="false" signature="6:528" ph="..." />
+            <marker date="1553736655991" expanded="true" signature="549:4390" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="576:4388" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="777:951" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1019:3590" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1595:1793" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1963:2139" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="2178:2412" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="2466:3565" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="3403:3546" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="3646:4382" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="4036:4174" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MvcHybridBackChannel/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="85" column="19" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="19" />
+          <folding>
+            <marker date="1553495548836" expanded="false" signature="6:395" ph="..." />
+            <marker date="1553495548836" expanded="true" signature="428:4972" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="475:4970" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="704:822" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="860:1733" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="1165:1692" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="1744:1829" ph="/// 添加应用 ... " />
+            <marker date="1553495548836" expanded="true" signature="1867:1914" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="2008:2454" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="2241:2311" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="2549:2596" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="2668:3045" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="3101:4646" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="3489:3668" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="3709:4550" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="4693:4780" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="4818:4865" ph="{...}" />
+            <marker date="1553495548836" expanded="false" signature="4876:4955" ph="新增加的框架接口" />
           </folding>
         </state>
       </provider>
@@ -399,29 +554,31 @@
         <state relative-caret-position="165">
           <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
-            <marker date="1553502348795" expanded="false" signature="6:190" ph="..." />
-            <marker date="1553502348795" expanded="true" signature="223:3971" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="274:3969" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="361:2221" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="695:1406" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="755:830" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="896:986" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1038:1114" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1167:1244" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1306:1392" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1553:1660" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1711:2150" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1816:2069" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="2330:3247" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="2555:2992" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="2629:2706" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="2761:2859" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="2896:2978" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="3032:3175" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="3265:3417" ph="/// GMT时间转成本地时间   ... " />
-            <marker date="1553502348795" expanded="true" signature="3470:3936" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="3608:3808" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="3825:3901" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="6:190" ph="..." />
+            <marker date="1553737785438" expanded="true" signature="223:4260" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="299:4258" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="338:431" ph="/// 读取当前登录人的个人信息 ... " />
+            <marker date="1553737785438" expanded="true" signature="518:2385" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="855:1570" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="915:994" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1060:1150" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1202:1278" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1331:1408" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1470:1556" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1717:1824" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1875:2314" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1980:2233" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="2427:2514" ph="/// 获得访问票据 ... " />
+            <marker date="1553737785438" expanded="true" signature="2633:3554" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="2858:3295" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="2932:3009" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3064:3162" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3199:3281" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3335:3478" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3572:3724" ph="/// GMT时间转成本地时间   ... " />
+            <marker date="1553737785438" expanded="true" signature="3778:4226" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3877:4123" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="4140:4216" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -431,19 +588,18 @@
         <state relative-caret-position="1425">
           <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
           <folding>
-            <marker date="1552897354174" expanded="false" signature="6:528" ph="..." />
-            <marker date="1552897354174" expanded="true" signature="549:4559" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="576:4557" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="777:951" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1019:3533" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1538:1736" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1906:2082" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="2121:2355" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="2409:3508" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3346:3489" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3589:4551" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3979:4117" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="4223:4540" ph="/* var rewriteOption = new RewriteOptions() ... */" />
+            <marker date="1553736655991" expanded="false" signature="6:528" ph="..." />
+            <marker date="1553736655991" expanded="true" signature="549:4390" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="576:4388" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="777:951" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1019:3590" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1595:1793" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1963:2139" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="2178:2412" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="2466:3565" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="3403:3546" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="3646:4382" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="4036:4174" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -470,7 +626,7 @@
             <marker date="1553495548836" expanded="true" signature="3709:4550" ph="{...}" />
             <marker date="1553495548836" expanded="true" signature="4693:4780" ph="{...}" />
             <marker date="1553495548836" expanded="true" signature="4818:4865" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="4876:4955" ph="新增加的框架接口" />
+            <marker date="1553495548836" expanded="false" signature="4876:4955" ph="新增加的框架接口" />
           </folding>
         </state>
       </provider>
@@ -541,29 +697,31 @@
         <state relative-caret-position="780">
           <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
           <folding>
-            <marker date="1553502348795" expanded="false" signature="6:190" ph="..." />
-            <marker date="1553502348795" expanded="true" signature="223:3971" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="274:3969" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="361:2221" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="695:1406" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="755:830" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="896:986" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1038:1114" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1167:1244" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1306:1392" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1553:1660" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1711:2150" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1816:2069" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="2330:3247" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="2555:2992" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="2629:2706" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="2761:2859" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="2896:2978" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="3032:3175" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="3265:3417" ph="/// GMT时间转成本地时间   ... " />
-            <marker date="1553502348795" expanded="true" signature="3470:3936" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="3608:3808" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="3825:3901" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="6:190" ph="..." />
+            <marker date="1553737785438" expanded="true" signature="223:4260" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="299:4258" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="338:431" ph="/// 读取当前登录人的个人信息 ... " />
+            <marker date="1553737785438" expanded="true" signature="518:2385" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="855:1570" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="915:994" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1060:1150" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1202:1278" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1331:1408" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1470:1556" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1717:1824" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1875:2314" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1980:2233" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="2427:2514" ph="/// 获得访问票据 ... " />
+            <marker date="1553737785438" expanded="true" signature="2633:3554" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="2858:3295" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="2932:3009" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3064:3162" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3199:3281" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3335:3478" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3572:3724" ph="/// GMT时间转成本地时间   ... " />
+            <marker date="1553737785438" expanded="true" signature="3778:4226" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3877:4123" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="4140:4216" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -573,19 +731,18 @@
         <state relative-caret-position="1425">
           <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
           <folding>
-            <marker date="1552897354174" expanded="false" signature="6:528" ph="..." />
-            <marker date="1552897354174" expanded="true" signature="549:4559" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="576:4557" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="777:951" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1019:3533" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1538:1736" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1906:2082" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="2121:2355" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="2409:3508" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3346:3489" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3589:4551" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3979:4117" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="4223:4540" ph="/* var rewriteOption = new RewriteOptions() ... */" />
+            <marker date="1553736655991" expanded="false" signature="6:528" ph="..." />
+            <marker date="1553736655991" expanded="true" signature="549:4390" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="576:4388" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="777:951" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1019:3590" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1595:1793" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1963:2139" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="2178:2412" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="2466:3565" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="3403:3546" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="3646:4382" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="4036:4174" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -612,7 +769,7 @@
             <marker date="1553495548836" expanded="true" signature="3709:4550" ph="{...}" />
             <marker date="1553495548836" expanded="true" signature="4693:4780" ph="{...}" />
             <marker date="1553495548836" expanded="true" signature="4818:4865" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="4876:4955" ph="新增加的框架接口" />
+            <marker date="1553495548836" expanded="false" signature="4876:4955" ph="新增加的框架接口" />
           </folding>
         </state>
       </provider>
@@ -668,19 +825,18 @@
         <state relative-caret-position="1425">
           <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
           <folding>
-            <marker date="1552897354174" expanded="false" signature="6:528" ph="..." />
-            <marker date="1552897354174" expanded="true" signature="549:4559" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="576:4557" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="777:951" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1019:3533" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1538:1736" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1906:2082" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="2121:2355" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="2409:3508" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3346:3489" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3589:4551" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3979:4117" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="4223:4540" ph="/* var rewriteOption = new RewriteOptions() ... */" />
+            <marker date="1553736655991" expanded="false" signature="6:528" ph="..." />
+            <marker date="1553736655991" expanded="true" signature="549:4390" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="576:4388" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="777:951" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1019:3590" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1595:1793" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1963:2139" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="2178:2412" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="2466:3565" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="3403:3546" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="3646:4382" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="4036:4174" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -707,7 +863,7 @@
             <marker date="1553495548836" expanded="true" signature="3709:4550" ph="{...}" />
             <marker date="1553495548836" expanded="true" signature="4693:4780" ph="{...}" />
             <marker date="1553495548836" expanded="true" signature="4818:4865" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="4876:4955" ph="新增加的框架接口" />
+            <marker date="1553495548836" expanded="false" signature="4876:4955" ph="新增加的框架接口" />
           </folding>
         </state>
       </provider>
@@ -717,19 +873,18 @@
         <state relative-caret-position="1425">
           <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
           <folding>
-            <marker date="1552897354174" expanded="false" signature="6:528" ph="..." />
-            <marker date="1552897354174" expanded="true" signature="549:4559" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="576:4557" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="777:951" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1019:3533" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1538:1736" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1906:2082" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="2121:2355" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="2409:3508" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3346:3489" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3589:4551" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3979:4117" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="4223:4540" ph="/* var rewriteOption = new RewriteOptions() ... */" />
+            <marker date="1553736655991" expanded="false" signature="6:528" ph="..." />
+            <marker date="1553736655991" expanded="true" signature="549:4390" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="576:4388" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="777:951" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1019:3590" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1595:1793" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1963:2139" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="2178:2412" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="2466:3565" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="3403:3546" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="3646:4382" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="4036:4174" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -756,7 +911,7 @@
             <marker date="1553495548836" expanded="true" signature="3709:4550" ph="{...}" />
             <marker date="1553495548836" expanded="true" signature="4693:4780" ph="{...}" />
             <marker date="1553495548836" expanded="true" signature="4818:4865" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="4876:4955" ph="新增加的框架接口" />
+            <marker date="1553495548836" expanded="false" signature="4876:4955" ph="新增加的框架接口" />
           </folding>
         </state>
       </provider>
@@ -765,28 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MvcHybridBackChannel/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
-          <folding>
-            <marker date="1552897354174" expanded="false" signature="6:528" ph="..." />
-            <marker date="1552897354174" expanded="true" signature="549:4559" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="576:4557" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="777:951" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1019:3533" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1538:1736" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="1906:2082" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="2121:2355" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="2409:3508" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3346:3489" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3589:4551" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="3979:4117" ph="{...}" />
-            <marker date="1552897354174" expanded="true" signature="4223:4540" ph="/* var rewriteOption = new RewriteOptions() ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,33 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MvcHybridBackChannel/Controllers/HomeController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="85" column="19" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="19" />
-          <folding>
-            <marker date="1553495548836" expanded="false" signature="6:395" ph="..." />
-            <marker date="1553495548836" expanded="true" signature="428:4972" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="475:4970" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="704:822" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="860:1733" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="1165:1692" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="1744:1829" ph="/// 添加应用 ... " />
-            <marker date="1553495548836" expanded="true" signature="1867:1914" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="2008:2454" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="2241:2311" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="2549:2596" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="2668:3045" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="3101:4646" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="3489:3668" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="3709:4550" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="4693:4780" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="4818:4865" ph="{...}" />
-            <marker date="1553495548836" expanded="true" signature="4876:4955" ph="新增加的框架接口" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MvcHybridBackChannel/Views/Home/Secure.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -885,34 +991,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MvcHybridBackChannel/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+          <folding>
+            <marker date="1553495548836" expanded="false" signature="6:395" ph="..." />
+            <marker date="1553495548836" expanded="true" signature="428:4972" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="475:4970" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="704:822" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="860:1733" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="1165:1692" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="1744:1829" ph="/// 添加应用 ... " />
+            <marker date="1553495548836" expanded="true" signature="1867:1914" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="2008:2454" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="2241:2311" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="2549:2596" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="2668:3045" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="3101:4646" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="3489:3668" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="3709:4550" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="4693:4780" ph="{...}" />
+            <marker date="1553495548836" expanded="true" signature="4818:4865" ph="{...}" />
+            <marker date="1553495548836" expanded="false" signature="4876:4955" ph="新增加的框架接口" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/35D1D668-9205-4C08-8AC0-8401C2EDB00B/68/6316b712/Controller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MvcHybridBackChannel/Controllers/IdentityController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="127" column="68" lean-forward="true" selection-start-line="127" selection-start-column="68" selection-end-line="127" selection-end-column="68" />
+        <state relative-caret-position="-1620">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
-            <marker date="1553502348795" expanded="false" signature="6:190" ph="..." />
-            <marker date="1553502348795" expanded="true" signature="223:3971" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="274:3969" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="361:2221" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="695:1406" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="755:830" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="896:986" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1038:1114" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1167:1244" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1306:1392" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1553:1660" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1711:2150" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="1816:2069" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="2330:3247" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="2555:2992" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="2629:2706" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="2761:2859" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="2896:2978" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="3032:3175" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="3265:3417" ph="/// GMT时间转成本地时间   ... " />
-            <marker date="1553502348795" expanded="true" signature="3470:3936" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="3608:3808" ph="{...}" />
-            <marker date="1553502348795" expanded="true" signature="3825:3901" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="6:190" ph="..." />
+            <marker date="1553737785438" expanded="true" signature="223:4260" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="299:4258" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="338:431" ph="/// 读取当前登录人的个人信息 ... " />
+            <marker date="1553737785438" expanded="true" signature="518:2385" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="855:1570" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="915:994" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1060:1150" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1202:1278" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1331:1408" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1470:1556" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1717:1824" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1875:2314" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="1980:2233" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="2427:2514" ph="/// 获得访问票据 ... " />
+            <marker date="1553737785438" expanded="true" signature="2633:3554" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="2858:3295" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="2932:3009" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3064:3162" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3199:3281" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3335:3478" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3572:3724" ph="/// GMT时间转成本地时间   ... " />
+            <marker date="1553737785438" expanded="true" signature="3778:4226" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="3877:4123" ph="{...}" />
+            <marker date="1553737785438" expanded="true" signature="4140:4216" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MvcHybridBackChannel/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="114" column="16" lean-forward="true" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
+          <folding>
+            <marker date="1553736655991" expanded="false" signature="6:528" ph="..." />
+            <marker date="1553736655991" expanded="true" signature="549:4390" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="576:4388" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="777:951" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1019:3590" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1595:1793" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="1963:2139" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="2178:2412" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="2466:3565" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="3403:3546" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="3646:4382" ph="{...}" />
+            <marker date="1553736655991" expanded="true" signature="4036:4174" ph="{...}" />
           </folding>
         </state>
       </provider>
